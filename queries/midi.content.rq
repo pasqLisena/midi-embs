@@ -1,0 +1,22 @@
+PREFIX mid: <http://purl.org/midi-ld/midi#>
+
+SELECT DISTINCT ?piece ?event ?val
+FROM <http://purl.org/midi-ld/doremus>
+WHERE {
+    VALUES ?interestingClass {
+        mid:TimeSignatureEvent
+        mid:SetTempoEvent
+        mid:ProgramChangeEvent
+        mid:NoteOnEvent
+        mid:NoteOffEvent
+    }
+
+    # VALUES ?piece {<http://purl.org/midi-ld/pattern/7a6e0863caf80b1f932bbd8249c9be91>}
+    ?piece a mid:Piece; mid:hasTrack / mid:hasEvent ?event .
+    ?event a ?interestingClass ; ?prop ?val
+
+    FILTER (?prop != rdf:type)
+}
+# LIMIT 100
+
+
