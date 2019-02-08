@@ -8,12 +8,13 @@ EMBEDDINGS_DIR = './embeddings'
 
 
 def main():
-    all_query_files = [qf for qf in os.listdir(EMBEDDINGS_DIR) if qf.endswith(".edgelist")]
+    all_query_files = [qf for qf in os.listdir(EDGELIST_DIR) if qf.endswith(".edgelist")]
 
     G = None
 
+    print('loading edgelists...')
     for query_file in all_query_files:
-        print('loading edgelists...')
+        print('- ' + query_file)
         H = nx.read_edgelist(path.join(EDGELIST_DIR, query_file), nodetype=str, create_using=nx.DiGraph())
         for edge in H.edges():
             H[edge[0]][edge[1]]['weight'] = 1
