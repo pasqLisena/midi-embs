@@ -1,7 +1,5 @@
 import os
 from os import path
-import argparse
-from types import SimpleNamespace
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 import networkx as nx

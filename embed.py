@@ -61,7 +61,7 @@ def main():
 
     node2vec_graph.G = G
 
-    node2vec_graph.learn_embeddings('%s/%s.emb' % (EMBEDDINGS_DIR, what), 'text')
+    node2vec_graph.learn_embeddings('%s/%s.emb' % (EMBEDDINGS_DIR, 'midi'), 'text')
 
 
 if __name__ == '__main__':
