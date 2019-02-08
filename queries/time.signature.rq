@@ -1,0 +1,11 @@
+PREFIX mid: <http://purl.org/midi-ld/midi#>
+
+SELECT DISTINCT ?event ?tp ?sig
+FROM <http://purl.org/midi-ld/doremus>
+WHERE {
+    ?event a mid:TimeSignatureEvent .
+    OPTIONAL { ?event mid:metronome ?metronome; mid:thirtyseconds ?ts .
+       BIND (CONCAT('metrots:',?ts*?metronome) AS ?tp) }
+    OPTIONAL { ?event mid:numerator ?num ; mid:denominator ?den .
+        BIND (CONCAT('timesig:',str(?num), '/',str(?den)) AS ?sig)}
+}

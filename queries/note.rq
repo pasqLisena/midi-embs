@@ -1,0 +1,12 @@
+PREFIX mid: <http://purl.org/midi-ld/midi#>
+
+SELECT DISTINCT ?event ?velocity ?note
+FROM <http://purl.org/midi-ld/doremus>
+WHERE {
+    ?event a mid:NoteOnEvent .
+    OPTIONAL {
+        ?event mid:velocity ?o
+         BIND (CONCAT('vel:',xsd:integer(ROUND(?o/10))) AS ?velocity) # integer
+    }
+    ?event mid:note ?note
+}

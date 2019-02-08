@@ -1,0 +1,8 @@
+PREFIX mid: <http://purl.org/midi-ld/midi#>
+
+SELECT DISTINCT ?event ?program
+FROM <http://purl.org/midi-ld/doremus>
+WHERE {
+    ?event a mid:ProgramChangeEvent .
+    ?event mid:program ?p .
+}

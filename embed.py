@@ -1,5 +1,6 @@
 import entity2vec.node2vec as node2vec
 from os import path
+import os
 import networkx as nx
 
 EDGELIST_DIR = './edgelist'
@@ -7,18 +8,28 @@ EMBEDDINGS_DIR = './embeddings'
 
 
 def main():
-    what = 'midi.content'
-    if what is None:
-        raise RuntimeError('You must specify the feature using -f or --feature')
+    all_query_files = [qf for qf in os.listdir(EMBEDDINGS_DIR) if qf.endswith(".edgelist")]
 
-    print('loading edgelists...')
-    G = nx.read_edgelist(path.join(EDGELIST_DIR, '%s.edgelist' % what), nodetype=str, create_using=nx.DiGraph())
-    for edge in G.edges():
-        G[edge[0]][edge[1]]['weight'] = 1
+    G = None
+
+    for query_file in all_query_files:
+        print('loading edgelists...')
+        H = nx.read_edgelist(path.join(EDGELIST_DIR, query_file), nodetype=str, create_using=nx.DiGraph())
+        for edge in H.edges():
+            H[edge[0]][edge[1]]['weight'] = 1
+
+        if G is None:
+            G = H
+        else:
+            G = nx.compose(G, H)
+
     G = G.to_undirected()
 
+    print('Nodes: %d' % nx.number_of_nodes(G))
+    print('Edges: %d' % nx.number_of_edges(G))
+
     n2vOpt = {"directed": False,
-              "preprocessing": False,
+              "preprocessing": True,
               "weighted": False,
               "p": 1,
               "q": 1,

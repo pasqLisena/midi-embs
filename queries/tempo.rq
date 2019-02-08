@@ -1,0 +1,11 @@
+PREFIX mid: <http://purl.org/midi-ld/midi#>
+
+SELECT DISTINCT ?event ?bpmm
+FROM <http://purl.org/midi-ld/doremus>
+WHERE {
+    ?event a mid:SetTempoEvent .
+    OPTIONAL {
+         ?event mid:bpm ?bpm .  # double
+         BIND (CONCAT('bpm:',xsd:integer(ROUND(?bpm/10))) AS ?bpmm) # integer
+    }
+}

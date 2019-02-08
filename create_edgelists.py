@@ -32,8 +32,12 @@ def query2edgelist(query_file):
 
         G = nx.Graph()
         for result in results["results"]["bindings"]:
-            G.add_edge(to_node(result['piece']), to_node(result['event']))
-            G.add_edge(to_node(result['event']), to_node(result['val']))
+            if 'piece' in result:
+                G.add_edge(to_node(result['piece']), to_node(result['event']))
+            else:
+                for key, value in result.items():
+                    if key != 'event':
+                        G.add_edge(to_node(result['event']), to_node(value))
 
         out_file = path.join(OUTPUT_DIR, query_file.replace(".rq", ".edgelist"))
         nx.write_edgelist(G, out_file, data=False)
