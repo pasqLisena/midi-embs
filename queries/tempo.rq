@@ -1,8 +1,9 @@
 PREFIX mid: <http://purl.org/midi-ld/midi#>
 
-SELECT DISTINCT ?event ?bpmm
+SELECT DISTINCT ?piece ?bpmm
 FROM <http://purl.org/midi-ld/doremus>
 WHERE {
+    ?piece a mid:Piece; mid:hasTrack / mid:hasEvent ?event .
     ?event a mid:SetTempoEvent .
     OPTIONAL {
          ?event mid:bpm ?bpm .  # double

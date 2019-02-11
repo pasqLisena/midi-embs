@@ -1,8 +1,9 @@
 PREFIX mid: <http://purl.org/midi-ld/midi#>
 
-SELECT DISTINCT ?event ?tp ?sig
+SELECT DISTINCT ?piece ?tp ?sig
 FROM <http://purl.org/midi-ld/doremus>
 WHERE {
+    ?piece a mid:Piece; mid:hasTrack / mid:hasEvent ?event .
     ?event a mid:TimeSignatureEvent .
     OPTIONAL { ?event mid:metronome ?metronome; mid:thirtyseconds ?ts .
        BIND (CONCAT('metrots:',?ts*?metronome) AS ?tp) }

@@ -30,7 +30,7 @@ def main():
     print('Edges: %d' % nx.number_of_edges(G))
 
     n2vOpt = {"directed": False,
-              "preprocessing": True,
+              "preprocessing": False,
               "weighted": False,
               "p": 1,
               "q": 1,
