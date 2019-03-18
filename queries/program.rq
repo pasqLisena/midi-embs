@@ -1,9 +1,0 @@
-PREFIX mid: <http://purl.org/midi-ld/midi#>
-
-SELECT DISTINCT ?piece ?program
-FROM <http://purl.org/midi-ld/doremus>
-WHERE {
-    ?piece a mid:Piece; mid:hasTrack / mid:hasEvent ?event .
-    ?event a mid:ProgramChangeEvent .
-    ?event mid:program ?program .
-}

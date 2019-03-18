@@ -1,2 +1,7 @@
-SPARQLWrapper
-networkx
+numpy
+pandas
+pyyaml
+gensim
+sklearn
+tensorflow
+matplotlib
