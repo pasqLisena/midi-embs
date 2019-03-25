@@ -1,438 +1,438 @@
-Bassoon+Clarinet+Double bassoon+Flute+Horn+Kettledrum+Oboe+Piccolo flute+Trombone+Trumpet+cordes (instrument)
-mixed choir+orchestra - other
+O
+O+V
 ?
-mixed choir+orchestra - other
-full orchestra+violin
-mixed choir
+O+V
+O+S
+V
 ?
-Bassoon+Clarinet+Double bassoon+Flute+Horn+Kettledrum+Oboe+Piccolo flute+Trombone+Trumpet+cordes (instrument)
-continuo+orchestra+voice
-full orchestra+voice
-mixed choir+organ
+O
+O
+O
+P+V
 ?
-full orchestra+violin
-Bassoon+Clarinet+Double bassoon+Flute+Horn+Kettledrum+Oboe+Piccolo flute+Trombone+Trumpet+cordes (instrument)
-continuo+orchestra+voice
-full orchestra+voice
-orchestra - other
-full orchestra
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-Bassoon+Clarinet+Double bassoon+Flute+Horn+Kettledrum+Oboe+Piccolo flute+Trombone+Trumpet+cordes (instrument)
-?
-?
-full orchestra+voice
-?
-full orchestra+voice
-full orchestra+voice
-full orchestra
-full orchestra+voice
-bassoon+continuo+horn+oboe+string orchestra+violin
-orchestra - other
-orchestra - other
-?
-full orchestra
-full orchestra
-full orchestra
-full orchestra+voice
-continuo+orchestra+voice
-full orchestra+voice
-mixed choir
-full orchestra
-full orchestra
-mixed choir
-?
-full orchestra
-full orchestra+voice
-clarinet+orchestra - other
-orchestra - other
-keyboard
-full orchestra+voice
-?
-continuo+orchestra+voice
-Pianoforte+orchestra
-orchestra - other+piano
-?
-orchestra - other
-orchestra - other
-bassoon+continuo+horn+oboe+string orchestra+violin
-full orchestra+voice
-full orchestra+violin
-full orchestra
-voice
-orchestra - other+piano
-keyboard
-?
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-full orchestra
-full orchestra+voice
-full orchestra+voice
-keyboard
-?
-continuo+string orchestra+violin
-voice
-orchestra - other+piano
-bassoon+continuo+horn+oboe+string orchestra+violin
-full orchestra
-continuo+orchestra+voice
-full orchestra
+O+S
+O
+O
+O
+O
+O
+O+V
+O
+O+V
+O
+O
 ?
 ?
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-full orchestra+voice
-orchestra - other
-keyboard
-orchestra - other
-orchestra - other+piano
-full orchestra+voice
-full orchestra+voice
-voice
-continuo+flute+harpsichord+string orchestra+violin
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-full orchestra+voice
-full orchestra+voice
-clarinet+orchestra - other
-full orchestra+voice
-cello+continuo+viola+violin
-continuo+orchestra+voice
-full orchestra+voice
-orchestra - other
-continuo+oboe+recorder+string orchestra+trumpet+violin
-continuo+oboe+recorder+string orchestra+trumpet+violin
-orchestra - other
-orchestra - other
-continuo+recorder+string orchestra+violin
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-mixed choir
-full orchestra+voice
-keyboard
-keyboard
-full orchestra+voice
-voice
-Pianoforte+orchestra
+O+V
 ?
-orchestra - other+piano
-full orchestra+voice
-clarinet+orchestra - other
-orchestra - other
-continuo+orchestra+voice
-full orchestra+voice
-full orchestra+voice
-continuo+string orchestra+violin
-full orchestra+voice
-full orchestra+voice
-orchestra - other+piano
-continuo+string orchestra+violin
-full orchestra+voice
-full orchestra+voice
-continuo+orchestra+voice
-orchestra - other
-orchestra - other+piano
-double bass+harpsichord+viol+viola
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-full orchestra+voice
+O
+O
+O
+O
+O
+O
+O
 ?
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-full orchestra
-cello+viola+violin
-orchestra - other
-full orchestra
-orchestra - other+piano
-Pianoforte+orchestra
+O
+O
+O
+O+V
+O
+O
+V
+O
+O
+V
 ?
-full orchestra+voice
-keyboard
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-cello+continuo+viola+violin
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-full orchestra+voice
-full orchestra
-keyboard
-Viola+Violin+Violoncello
-full orchestra+voice
-full orchestra
-orchestra - other+piano
-keyboard
-keyboard
-keyboard
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-bassoon+continuo+horn+oboe+string orchestra+violin
-full orchestra+voice
-double bass+harpsichord+viol+viola
-full orchestra+voice
-full orchestra+voice
-keyboard
-full orchestra+voice
-orchestra - other
+O
+O+V
+O+S
+O
+P
+O
 ?
-continuo+oboe+recorder+string orchestra+trumpet+violin
-keyboard
-orchestra - other
+O
+O+S
+O+S
 ?
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-full orchestra+voice
-full orchestra+voice
-keyboard
-full orchestra+voice
-cello+viola+violin
-full orchestra+voice
-Viola+Violin+Violoncello
-full orchestra+voice
-keyboard
-orchestra - other
-keyboard
-full orchestra+voice
+O
+O
+O
+O+V
+O+S
+O
+V
+O+S
+P
 ?
-full orchestra+voice
-keyboard
-keyboard
-orchestra - other
-orchestra - other+piano
-keyboard
-full orchestra+voice
-full orchestra+voice
-Viola+Violin+Violoncello
-full orchestra+voice
-double bass+harpsichord+viol+viola
-keyboard
-full orchestra+voice
-orchestra - other+piano
-cello+viola+violin
-full orchestra+voice
-full orchestra+voice
-orchestra - other+piano
-full orchestra+voice
-continuo+flute+harpsichord+string orchestra+violin
-Viola+Violin+Violoncello
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-continuo+recorder+string orchestra+violin
-full orchestra+voice
-cello+viola+violin
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-full orchestra+voice
-full orchestra+voice
-Viola+Violin+Violoncello
-Viola+Violin+Violoncello
-keyboard
-mixed choir
-keyboard
-keyboard
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-cello+viola+violin
-mixed choir
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-keyboard
-Viola+Violin+Violoncello
-full orchestra+voice
-keyboard
-keyboard
-keyboard
-full orchestra+voice
-Viola+Violin+Violoncello
-full orchestra+voice
-keyboard
-full orchestra+voice
-keyboard
-full orchestra+voice
-viola+violin
-Viola+Violin+Violoncello
-mixed choir
-Viola+Violin+Violoncello
-keyboard
-keyboard
-bassoon+continuo+horn+oboe+string orchestra+violin
-keyboard
-mixed choir
-cello+viola+violin
-full orchestra+voice
-full orchestra+voice
-horn
-keyboard
-keyboard
-full orchestra+voice
-full orchestra+voice
-full orchestra+voice
-orchestra - other
-cello+viola+violin
-keyboard
-orchestra - other
-keyboard
-keyboard
-mixed choir
+O+V
+O+V
+O
+O
+O+V
+O
+O+V
+O
+P
 ?
-mixed choir
-mixed choir
-Viola+Violin+Violoncello
-keyboard
-full orchestra+voice
-cello+viola+violin
-orchestra - other
-orchestra - other
-mixed choir
-Viola+Violin+Violoncello
-cello+viola+violin
-keyboard
-full orchestra+voice
-full orchestra+voice
-keyboard
-continuo+orchestra+voice
-full orchestra+voice
-keyboard
-orchestra - other
-keyboard
-keyboard
-full orchestra+voice
-continuo+recorder+string orchestra+violin
-viola+violin
-keyboard
-continuo+orchestra+voice
-full orchestra+voice
-full orchestra+voice
-horn
-full orchestra+voice
-viola+violin
-full orchestra+voice
-keyboard
-bassoon+continuo+horn+oboe+string orchestra+violin
-viola+violin
-Viola+Violin+Violoncello
-full orchestra+voice
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-bassoon+continuo+horn+oboe+string orchestra+violin
-keyboard
-voice
-keyboard
-keyboard
-horn
-keyboard
-full orchestra+voice
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-viola+violin
-keyboard
-continuo+flute+harpsichord+string orchestra+violin
-keyboard
-keyboard
-full orchestra+voice
-keyboard
-continuo+orchestra+voice
-keyboard
-full orchestra+voice
-keyboard
-keyboard
-keyboard
-keyboard
-full orchestra+voice
-keyboard
-keyboard
-keyboard
-viola+violin
-harpsichord
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-full orchestra+voice
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-full orchestra+voice
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-voice
-keyboard
-continuo+orchestra+voice
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-harpsichord
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-mixed choir
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-keyboard
-full orchestra+voice
-keyboard
+O+S
+V
+O+S
+O
+O
+O
+O
+?
+?
+O+V
+O
+O
+O
+O
+P
+O
+O+S
+O
+O+V
+V
+O+S
+O
+O
+O
+O
+O
+O+S
+O
+I+P
+O
+O+V
+O
+O
+O
+O
+O
+O+S
+O
+O
+O
+O+V
+V
+O
+P
+P
+O+V
+V
+O+S
+?
+O+S
+O
+O+S
+O
+O
+O
+O
+O+S
+O
+O+V
+O+S
+O+S
+O
+O
+O
+O
+O+S
+I
+O+V
+O+V
+O
+O
+O+V
+?
+O
+O+V
+O
+O
+I
+O
+O
+O+S
+O+S
+?
+O
+P
+O
+O
+O
+O+V
+O
+O
+O
+O
+O
+I+P
+O+V
+O
+O
+O
+O
+O
+P
+I
+O+V
+O
+O+S
+P
+P
+P
+O
+O+V
+O
+O
+O+V
+I
+O
+O+V
+P
+O
+O
+?
+O
+P
+O
+?
+O+V
+O+V
+O
+O
+O
+O+V
+P
+O+V
+I
+O
+I
+O
+P
+O
+P
+O+V
+?
+O+V
+P
+P
+O
+O+S
+P
+O
+O+V
+I
+O
+I
+P
+O
+O+S
+I
+O
+O+V
+O+S
+O
+O+S
+I
+O
+O+V
+O
+O+S
+O+V
+I
+O
+O+V
+O
+O
+O+V
+I
+I
+P
+V
+P
+P
+O
+O
+O
+I
+V
+O
+O+V
+O+V
+P
+I
+O
+P
+P
+P
+O+V
+I
+O
+P
+O+V
+P
+O
+I
+I
+V
+I
+P
+P
+O
+P
+V
+I
+O
+O
+I
+P
+P
+O
+O+V
+O
+O
+I
+P
+O
+P
+P
+V
+?
+V
+V
+I
+P
+O
+I
+O
+O
+V
+I
+I
+P
+O
+O+V
+P
+O
+O+V
+P
+O
+P
+P
+O+V
+O+S
+I
+P
+O
+O+V
+O
+I
+O
+I
+O
+P
+O
+I
+I
+O+V
+P
+P
+P
+P
+P
+O
+P
+V
+P
+P
+I
+P
+O
+P
+P
+P
+P
+P
+P
+I
+P
+O+S
+P
+P
+O
+P
+O
+P
+O
+P
+P
+P
+P
+O
+P
+P
+P
+I
+I
+P
+P
+P
+P
+P
+P
+P
+O
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+O+V
+P
+P
+P
+P
+P
+V
+P
+O
+P
+P
+P
+P
+P
+I
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+V
+P
+P
+P
+P
+P
+P
+P
+O
+P
