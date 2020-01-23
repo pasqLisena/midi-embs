@@ -1,12 +1,10 @@
 import os
 import h5py
 import pandas
-import numpy as np
 import json
 
 source = '/Users/pasquale/Downloads/lmd_matched_h5/A/A/A'
-out = './out/'
-
+out = '../embeddings/'
 
 with open('match_scores.json') as json_file:
     scores = json.load(json_file)
@@ -61,11 +59,11 @@ for root, dirs, files in os.walk(source, topdown=False):
 
 df.to_csv(out + 'lakh.csv')
 
-with open(out + 'echo.txt', 'w') as f:
-    f.write('\n'.join(df['tag_echo'].tolist()))
-with open(out + 'mbz.txt', 'w') as f:
-    f.write('\n'.join(df['tag_mbz'].tolist()))
-with open(out + 'years.txt', 'w') as f:
-    f.write('\n'.join(df['year'].astype(np.str).tolist()))
-with open(out + 'ids.txt', 'w') as f:
-    f.write('\n'.join(df['id'].tolist()))
+# with open(out + 'echo.txt', 'w') as f:
+#     f.write('\n'.join(df['tag_echo'].tolist()))
+# with open(out + 'mbz.txt', 'w') as f:
+#     f.write('\n'.join(df['tag_mbz'].tolist()))
+# with open(out + 'years.txt', 'w') as f:
+#     f.write('\n'.join(df['year'].astype(np.str).tolist()))
+# with open(out + 'ids.txt', 'w') as f:
+#     f.write('\n'.join(df['id'].tolist()))
