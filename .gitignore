@@ -1,5 +1,5 @@
 .idea
-
+**/*.bin
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
@@ -107,3 +107,4 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+/lakh/lmd_subset/

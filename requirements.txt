@@ -2,6 +2,6 @@ numpy
 pandas
 pyyaml
 gensim
-sklearn
-tensorflow
+scikit-learn
+tensorflow==1.14.0
 matplotlib
