@@ -62,10 +62,9 @@ def plot_confusion_matrix(y_true, y_pred, classes,
                         color="white" if cm[i, j] > thresh else "black")
 
     fig.tight_layout()
-    fnames = ['slac', title]
     if normalize:
-        fnames.append('norm')
-    filename = 'plot/' + '_'.join(fnames) + '.pdf'
+        title.append('norm')
+    filename = 'plot/' + '_'.join(title) + '.pdf'
     fig.savefig(filename, dpi=fig.dpi)
 
 
