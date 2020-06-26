@@ -63,8 +63,8 @@ def plot_confusion_matrix(y_true, y_pred, classes,
 
     fig.tight_layout()
     if normalize:
-        title.append('norm')
-    filename = 'plot/' + '_'.join(title) + '.pdf'
+        title += '_norm'
+    filename = 'plot/' + title + '.pdf'
     fig.savefig(filename, dpi=fig.dpi)
 
 
