@@ -5,3 +5,4 @@ gensim
 scikit-learn
 tensorflow==1.14.0
 matplotlib
+seaborn
