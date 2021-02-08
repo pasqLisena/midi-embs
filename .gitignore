@@ -1,4 +1,7 @@
 .idea
+*.edgelist
+*_jsymbolic.csv
+*.mid
 **/*.bin
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
