@@ -2,13 +2,19 @@
 
 Repository in support to **MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata**.
 
+> Pasquale Lisena, Albert Meroño-Peñuela, Raphaël Troncy. **MIDI2vec: Learning MIDI Embeddings for
+> Reliable Prediction of Symbolic Music Metadata**, to appear in *Semantic Web Journal, Special Issue on Deep Learning for Knowledge Graphs*, 2021.
+> http://www.semantic-web-journal.net/content/midi2vec-learning-midi-embeddings-reliable-prediction-symbolic-music-metadata-0
+
 The experiment is available under 3 notebooks, covering 3 datasets:
 
 - SLAC http://jmir.sourceforge.net/Codaich.html - [direct download](http://www.music.mcgill.ca/~cmckay/protected/SLAC_MIDI_Dataset.zip)
 - Musedata http://old.musedata.org/ 
 - Lakh https://colinraffel.com/projects/lmd/
 
-Datasets (original and splitted) and all trained models are available at https://www.doremus.org/midi/
+The MIDI2vec library is available [here](https://github.com/midi-ld/midi2vec).
+
+Pre-computed MIDI embeddings used in the paper are available in [Zenodo](https://zenodo.org/record/5082300).
 
 # Embedding generation
 
