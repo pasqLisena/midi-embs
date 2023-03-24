@@ -2,6 +2,6 @@ numpy
 pandas
 gensim
 scikit-learn
-tensorflow==1.14.0
+tensorflow==2.11.1
 matplotlib
 seaborn
